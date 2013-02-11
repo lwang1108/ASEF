@@ -4,7 +4,7 @@
 
 Rev. 2
 
-Quite a few people are interesed in this project, but unfortunately the code in the repo was just a dump from an experimental project for research. I spent a few days rewriting it. Please let me know if you have any problem with it. The code is tested on Mac OS X and Ubuntu, should also work on other Linux distros. 
+Quite a few people are interesed in this project, but unfortunately the code in the repo was just a dump from an experimental project for research. I spent a few days rewriting it. Please let me know if you have any problem with it. The code is tested on Mac OS X and Ubuntu, should also works on other Linux distros. 
 
 
 ## About ASEF
@@ -25,7 +25,7 @@ For those who are only interested in the implementation of ASEF, please look at
 
 in asef.c
 
-__Caveat__: ASEF operates on the results of Haar face detection. ASEF is fast, but face detection is slow. Also face detection is not good at handling rotation (both in-plane and out-of-plane), so the ASEF has the same problem. 
+__Caveat__: ASEF operates on the results of Haar face detection. ASEF is fast, but face detection is slow. Also face detection is not good at handling rotation (both in-plane and out-of-plane), so the ASEF shares the same problem. 
 
 ## Suggestions to iOS/Mac/Android developers
 
@@ -60,8 +60,5 @@ Make sure you have a webcam attached. In a terminal, cd to the source code folde
 
 ## TODOs :
 
-(in next few days)
-
 * Add a seperate binary for single image demostration.
 * Add byte swapping for endieness. 
-* Add some comments
